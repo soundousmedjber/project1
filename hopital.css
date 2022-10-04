@@ -1,0 +1,261 @@
+body
+{
+    font-family: 'montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white ;
+    height: 10%;
+    width: 100%;
+    position: fixed;
+}
+
+nav a
+{
+    text-decoration: none;
+     color: black;
+    margin-left: 10px;
+   
+}
+nav a:hover
+{
+    color:  rgb(62, 205, 205);
+    font-weight: bold;
+}
+nav h1
+{
+    margin-left: 20px;
+}
+nav div
+{
+    margin-right: 20px;
+}
+#first
+{
+    min-height: 600px;
+    background-image: url(../doc.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.center
+{
+    margin-left: 10%;
+    padding-top: 13%;
+    color: black;
+
+}
+.color
+{
+    color: rgb(62, 205, 205) ;
+}
+
+section button
+{
+    color: white;
+    background-color: rgb(62, 205, 205);
+    border: none;
+    padding-right: 35px;
+    padding-left: 40px;
+    height: 30px;
+}
+ .diff
+{
+    color:  rgb(62, 205, 205);
+}
+section h1
+{
+    font-size: xx-large;
+}
+section p
+{
+    color: rgba(0, 0, 0, 0.616);
+}
+.second
+{
+    margin-top: 10%;
+    background-color:  rgb(62, 205, 205) ;
+    padding: 7%;
+    color: white;
+}
+.second button
+{
+    background-color: white;
+    color: black;
+}
+.cen
+{
+    margin-left: 30%;
+    color: rgba(0, 0, 0, 0.576);
+}
+#box-section
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.box{
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(246, 242, 237);
+    margin-left: 30px;
+    border-top: rgb(7, 39, 7) 7px solid;
+    transition: all 0.7s;
+    cursor: pointer;
+}
+.box:hover
+{
+    transition: all 0.7s;
+    background-color: rgb(190, 136, 37);
+}
+.box h5
+{
+    color: rgb(62, 205, 205);
+}
+#butt
+{
+    margin-left: 40%;
+    font-size: 13px;
+    color: black;
+    height: 50px;
+    padding: 20px;
+}
+.beach
+{
+    background-image: url(../beachj.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+}
+.beach div
+{
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-top: 50px;
+}
+.beach div h1
+{
+    color: rgba(0, 0, 0, 0.636);
+}
+.beach div p
+{
+    color: white;
+}
+.beach div button
+{
+    margin-left: 40%;
+    height: 50px;
+    margin-top: 10%;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: black;
+    background-color: white;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#doctors
+{
+    padding: 20px;
+}
+#back
+{
+    background-color: white;
+}
+#doctors h1
+{
+    margin-left: 18%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 27px;
+    color: rgba(0, 0, 0, 0.693);
+}
+#doctors button 
+{
+    margin-left: 40%;
+}
+.where
+{
+    display: flex;
+    justify-content: space-between;
+    background-color:  rgb(62, 205, 205);
+    margin: 10px;
+}
+.are
+{
+  margin-left: 3%;
+  margin-top: 6%;
+  color: rgba(255, 255, 255, 0.942);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#right
+{
+    margin-right: 20px;
+}
+.hospital 
+{
+margin-left: 30%;
+}
+.hospitals
+{
+    margin-left: 40%;
+    font-size: 15px;
+    padding: 20px;
+    height: auto;
+}
+footer{
+    background-color: rgb(69, 65, 65);
+    color: white;
+}
+
+.foots
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.foots a
+{
+    text-decoration: none;
+    color: white;
+}
+.foot
+{
+    align-items: center;
+}
+.foot h1
+{
+    margin-top: 20%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 30%;
+    font-size: 19px;
+    color: black;
+}
+#foo
+{
+   padding: 30%;
+}
+
+#last 
+{
+    color: white;
+}
+#aline
+{
+    display: flex;
+    justify-content: space-around;
+}
+footer button {
+    border: none;
+    background-color:  rgb(62, 205, 205);
+    color: white;
+    font-size: 15px;
+    padding-left: 5%;
+    padding-right: 10%;
+    width: 7px;
+    height: 50px;
+}
